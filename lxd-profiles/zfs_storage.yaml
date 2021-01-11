@@ -1,0 +1,7 @@
+name: zfs
+description: zfs storage profile
+devices:
+  root:
+    path: /
+    pool: zfs_usb
+    type: disk

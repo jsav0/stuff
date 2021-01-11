@@ -1,0 +1,7 @@
+name: macvlan
+description: macvlan network profile
+devices:
+  eth0:
+    nictype: macvlan
+    type: nic
+    parent: eth0

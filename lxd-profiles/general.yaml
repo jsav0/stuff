@@ -1,0 +1,14 @@
+name: test
+config: 
+  boot.autostart: 1
+  limits.memory: 99MB
+description: a test profile
+devices:
+  root:
+    path: /
+    pool: lxd_zfs_usb1
+    type: disk
+  eth0:
+    nictype: macvlan
+    type: nic
+    parent: eth0
